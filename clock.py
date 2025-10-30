@@ -8,7 +8,7 @@ from time import strftime
 
 # creating tkinter window
 root = Tk()
-root.title('Clock_Junaid')
+root.title('Clock_momo')
 
 # This function is used to
 # display time on the label
@@ -20,8 +20,8 @@ def time():
 # Styling the label widget so that clock
 # will look more attractive
 lbl = Label(root, font = ('arial', 90, 'bold'),
-			background = 'white',
-			foreground = 'black')
+			background = 'yellow',
+			foreground = 'pink')
 
 # Placing clock at the centre
 # of the tkinter window
